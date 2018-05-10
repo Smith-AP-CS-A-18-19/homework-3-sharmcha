@@ -26,6 +26,7 @@ public class Homework3 {
 	}
 
 	/* Calculate and return the average of value1, value2, and value3
+	 * Hint: the average of numbers can be fractional
 	 */
 	public double problem3() {
 
@@ -34,14 +35,14 @@ public class Homework3 {
 	/* Calculate and return the difference between the product and sum of
 	 * value 1, value2, and value3
 	 */
-	 public double problem4() {
+	 public int problem4() {
 
 	 }
 
 	 /* Calculate and return the sum of the squares of value1, value2, and
 	  * value3
 	  */
-	  public double problem5() {
+	  public int problem5() {
 
 	  }
 }

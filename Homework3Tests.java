@@ -28,14 +28,14 @@ public class Homework3Tests {
 			exitCode += 1;
 		}
 
-		if (Homework1.problem4() == 720) {
+		if (hw3.problem4() == 720) {
 			System.out.println("Pass 4");
 		} else {
 			System.out.println("Fail 4");
 			exitCode += 1;
 		}
 
-		if (Homework1.problem5() == 350) {
+		if (hw3.problem5() == 350) {
 			System.out.println("Pass 5");
 		} else {
 			System.out.println("Fail 5");
