@@ -1,13 +1,17 @@
-public class Homework2Tests {
+public class Homework3Tests {
 
 	/* Tests to verify that your solutions work
 	 * Do not submit your homework until this compiles and the words
 	 * "All Pass" are printed
 	 */
 	public static void main(String[] args) {
+		Homework3 hw3 = new Homework3(5, 10, 15);
+		hw3.problem1();
+	}
+
+	public static void grade(Homework3 hw3) {
 		int exitCode = 0;
 
-		Homework2 hw2 = new Homework2("Hello, World!");
 		System.out.println("Pass 1");
 
 		if (hw2.problem2().equals("HELLO, WORLD!")) {
