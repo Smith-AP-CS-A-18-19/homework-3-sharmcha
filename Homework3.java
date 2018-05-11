@@ -15,34 +15,34 @@ public class Homework3 {
 	/* Call the grade method in Homework3Tests, passing this object as the
 	 * parameter
 	 */
-	public void problem1() {
+	public void grade() {
 
 	}
 
 	/* Calculate and return the sum of value1, value2, and value3
 	 */
-	public int problem2() {
+	public int sum() {
 
 	}
 
 	/* Calculate and return the average of value1, value2, and value3
 	 * Hint: the average of numbers can be fractional
 	 */
-	public double problem3() {
+	public double average() {
 
 	}
 
 	/* Calculate and return the difference between the product and sum of
 	 * value 1, value2, and value3
 	 */
-	 public int problem4() {
+	 public int productSumDifference() {
 
 	 }
 
 	 /* Calculate and return the sum of the squares of value1, value2, and
 	  * value3
 	  */
-	  public int problem5() {
+	  public int sumSquares() {
 
 	  }
 }
