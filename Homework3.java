@@ -12,8 +12,9 @@ public class Homework3 {
 		value3 = v3;
 	}
 
-	/* Call the grade method in Homework3Tests, passing this object as the
-	 * parameter
+	/* Call the static grade method in Homework3, passing this object as the
+	 * parameter. Calling a static method looks like calling a method on a
+	 * class (e.g. Math.random())
 	 */
 	public void grade() {
 
