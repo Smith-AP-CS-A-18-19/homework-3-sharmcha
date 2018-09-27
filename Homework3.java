@@ -1,5 +1,5 @@
 /*
- * First and Last Names
+ * Charvi Sharma
  */
 
 public class Homework3 {
@@ -17,34 +17,43 @@ public class Homework3 {
 	 * class (e.g. Math.random())
 	 */
 	public void grade() {
-
+		Homework3.grade(this);
 	}
 
 	/* Calculate and return the sum of value1, value2, and value3
 	 */
 	public int sum() {
-
+		int total = value1 + value2 + value3;
+		return total;
 	}
 
 	/* Calculate and return the average of value1, value2, and value3
 	 * Hint: the average of numbers can be fractional
 	 */
 	public double average() {
-
+		double avg = (value1+value2+value3)/3;
+		return avg;
 	}
 
 	/* Calculate and return the difference between the product and sum of
 	 * value 1, value2, and value3
 	 */
 	 public int productSumDifference() {
-
+		 int product = value1*value2*value3;
+		 int sum = value1 + value2 + value3;
+		 int difference = product - sum;
+		 return difference;
 	 }
 
 	 /* Calculate and return the sum of the squares of value1, value2, and
 	  * value3
 	  */
 	  public int sumSquares() {
-
+			int square1 = value1*value1;
+			int square2 = value2*value2;
+			int square3 = value3*value3;
+			int addSquares = square1 + square2 + square3;
+			return addSquares;
 	  }
 
 	  /* Tests to verify that your solutions work
